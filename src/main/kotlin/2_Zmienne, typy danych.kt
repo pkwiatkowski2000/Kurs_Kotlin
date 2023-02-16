@@ -27,4 +27,22 @@ fun main(args: Array<String>) {
     println(float)
     println("float: " + Float.MAX_VALUE)
 
+    var double: Double = 5.1111235
+    println(double)
+    println("double: " + Double.MAX_VALUE)
+
+
+    // Char przechowuje tylko jeden znak
+    var char: Char = 'A'
+    println(char)
+
+    var string: String = "Tekst\n!$char"
+    string = string + "BC"
+    println(string)
+
+    var bool: Boolean = true
+    println(bool)
+    bool = false
+    println(bool)
+
 }
