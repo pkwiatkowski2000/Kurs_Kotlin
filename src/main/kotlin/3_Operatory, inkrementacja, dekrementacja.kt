@@ -20,9 +20,9 @@ fun main(args: Array<String>) {
 
     var i = 1
     i += 1 //2
-    i++ //3 postinkrementacja-powiększanie się pewnej wartości o 1; ++ po prawej stronie
+    i++ //3
     println(++i) //preinkrementacja-powiększanie się pewnej wartości o 1, ale robi się to przed wyświetleniem w konsoli; ++ po lewej stronie
-    println(i++)
+    println(i++) //postinkrementacja-powiększanie się pewnej wartości o 1; ++ po prawej stronie
 
     println(--i) //predekrementacja-zmniejszenie się pewnej wartości o 1, ale robi się to przed wyświetleniem w konsoli; -- po lewej stronie
     println(i--) // postdekrementacja-zmniejszenie się pewnej wartości o 1; -- po prawej stronie
