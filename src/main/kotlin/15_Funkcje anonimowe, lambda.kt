@@ -1,4 +1,5 @@
 fun main (args: Array<String>) {
+
     var hello = { println("Hello"); println("World")}
     hello()
 

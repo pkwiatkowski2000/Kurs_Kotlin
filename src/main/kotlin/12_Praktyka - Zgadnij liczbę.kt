@@ -11,6 +11,7 @@ fun main (args: Array<String>) {
 
 
 fun main (args: Array<String>) {
+
     val x = Random.nextInt(1, 11)
     var a: Int
     var i = 0

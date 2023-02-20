@@ -1,4 +1,5 @@
 fun main(args: Array<String>) {
+
      /*var liczba: Int
      var Liczba: Int
 */

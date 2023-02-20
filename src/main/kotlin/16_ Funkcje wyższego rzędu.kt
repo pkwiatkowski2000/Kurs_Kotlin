@@ -1,4 +1,5 @@
 fun main(args: Array<String>) {
+
     var sum = add(5, 10) {x -> "Suma = $x"}
     println(sum)
 
