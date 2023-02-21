@@ -26,4 +26,3 @@ enum class Colors(val num: Int){
     fun count() : Int {
         return values().size
     }*/
-}

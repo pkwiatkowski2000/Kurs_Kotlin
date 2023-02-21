@@ -2,7 +2,12 @@ fun main(args: Array<String>) {
 
     var obj = Cat()
 
-    if
+    if (obj is Any) {
+        println("Prawda")
+    }
+    else {
+        println("Fałsz")
+    }
 }
 
 open class Animal {
