@@ -1,4 +1,5 @@
 fun main(args: Array<String>) {
+
     println(User.num)
     var u1 = User("Json")
     println(User.num)

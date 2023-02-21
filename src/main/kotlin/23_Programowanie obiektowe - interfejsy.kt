@@ -1,6 +1,7 @@
-/*
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
+
 // W interfejsach niepotrzebne jest słówko abstract. W odróżnieniu od klas można dodać po przecinku drugi interface.
+
     var cat = Cat()
     println(cat.name)
     println(cat.num)

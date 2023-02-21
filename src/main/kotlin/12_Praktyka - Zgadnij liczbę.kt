@@ -2,6 +2,7 @@ import kotlin.random.Random
 
 /*
 fun main (args: Array<String>) {
+
     for (i in 1..30) {
         println(Random.nextInt(1, 11))
 

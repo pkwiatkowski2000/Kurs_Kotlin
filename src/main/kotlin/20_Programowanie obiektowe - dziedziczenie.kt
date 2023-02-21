@@ -1,5 +1,6 @@
 /*
 fun main(args: Array<String>) {
+
 // Aby mieć na czym dziedziczyć potrzebujemy co najmniej 2 klasy
 
     var animal = Animal("Felix")
