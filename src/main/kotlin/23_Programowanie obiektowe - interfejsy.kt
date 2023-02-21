@@ -1,3 +1,4 @@
+/*
 fun main(args: Array<String>) {
 // W interfejsach niepotrzebne jest słówko abstract. W odróżnieniu od klas można dodać po przecinku drugi interface.
     var cat = Cat()
@@ -41,4 +42,4 @@ interface AnimalInterface {
 
 interface SecondInterface {
     fun test()
-}
+}*/
