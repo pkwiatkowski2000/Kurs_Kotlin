@@ -102,8 +102,12 @@ println("--------------------------------------------------")*/
 fun main(args: Array<String>) {
 
     var p1 = Person("Sebastian", 26)
-    p1.age -= 50
+    p1.age = 50
+    p1.name = "Adam"
     p1.print()
+    println(p1.age)
+    println(p1.name)
+
 }
 
 class Person {
@@ -112,7 +116,20 @@ class Person {
         this.age = age
     }
     var name: String
+        get() = field.uppercase()
     var age: Int
+    get() = field // PROSTSZY ZAPIS
+    // get() { return field } WIĘCEJ INSTRUKCJI KODU
+    set(value) {
+        if (value < 0)
+            field = 0
+        else
+            field = value
+    }
+
+
+
+
 
     fun print() {
         println("Imię: $name, wiek: $age")
