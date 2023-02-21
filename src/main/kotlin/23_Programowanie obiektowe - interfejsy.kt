@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
     println(cat.num)
     cat.eat()
     cat.getVoice()
+    cat.test()
 }
 
 open class Animal    {
@@ -21,7 +22,7 @@ class Cat : Animal(), AnimalInterface, SecondInterface{
     }
 
     override fun test() {
-        TODO("Not yet implemented")
+        println("Test")
     }
 
 }
