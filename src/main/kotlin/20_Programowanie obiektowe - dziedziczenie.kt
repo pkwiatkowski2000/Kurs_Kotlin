@@ -1,3 +1,4 @@
+/*
 fun main(args: Array<String>) {
 // Aby mieć na czym dziedziczyć potrzebujemy co najmniej 2 klasy
 
@@ -26,4 +27,4 @@ open class Cat: Animal {
         println("My color is $color")
     }
     var color: String
-}
+}*/
