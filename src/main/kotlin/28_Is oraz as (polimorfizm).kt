@@ -1,8 +1,9 @@
 fun main(args: Array<String>) {
 
-    var obj = Cat()
+    var obj: Any = Cat()
+    obj
 
-    if (obj is Any) {
+    if (obj is Cat) {
         println("Prawda")
     }
     else {
@@ -19,3 +20,5 @@ class Cat: Animal() {
         println("Meow Meow")
     }
 }
+
+class Dog
