@@ -1,3 +1,4 @@
+/*
 fun main(args: Array<String>) {
 //    var animal = Animal()
 //    animal.getVoice()
@@ -43,4 +44,4 @@ class Cat : Animal() {
         println("How how")
     }
 
-}
+}*/
