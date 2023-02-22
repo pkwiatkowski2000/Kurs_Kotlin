@@ -23,6 +23,7 @@ class Cat: Animal() {
 
 class Dog*/
 
+/*
 fun main(args: Array<String>) {
 
     var obj: Animal = Cat()
@@ -51,3 +52,4 @@ class Dog {
         println("Om om om")
     }
 }
+*/

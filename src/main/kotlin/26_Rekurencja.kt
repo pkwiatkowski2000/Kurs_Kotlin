@@ -1,3 +1,4 @@
+/*
 fun main(args: Array<String>) {
 
     // Rekurencja to sytuacja taką, w której funkcja wewnątrz siebie wywołuje samą siebie
@@ -17,4 +18,4 @@ fun silnia(n: Int): Int {
         return n* silnia(n-1)
     }
 
-}
+}*/
