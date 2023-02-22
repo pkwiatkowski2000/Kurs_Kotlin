@@ -1,16 +1,20 @@
 fun main(args: Array<String>) {
-    fun main(args:Array<String>) {
-        var p1 = Punkt(2, 5)
-        println(p1)
-        var p2 = Punkt(2, 5)
-        println(p2.toString())
+
+        var p1 = Punkt(2, 7)
+        var p2 = Punkt(1, 5)
+        println("P1 = $p1")
+        println("P2 = $p2")
         println(p1 == p2)
-        println(p1.equals(p2))
+        println(p1 + p2)
     }
 
     class Punkt(x: Int, y: Int) {
         var x = x
         var y = y
+
+        operator fun plus(other: Punkt): Punkt {
+            return Punkt(this.x + other.x, this.y + other.y)
+        }
 
         override fun equals(other: Any?): Boolean {
             if (other is Punkt) {
@@ -25,5 +29,3 @@ fun main(args: Array<String>) {
         }
 
     }
-
-}

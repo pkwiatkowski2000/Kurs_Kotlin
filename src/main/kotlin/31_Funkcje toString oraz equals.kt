@@ -1,3 +1,4 @@
+/*
 fun main(args:Array<String>) {
 
     var p1 = Punkt(2, 5)
@@ -25,3 +26,4 @@ class Punkt(x: Int, y: Int) {
         }
 
     }
+*/
